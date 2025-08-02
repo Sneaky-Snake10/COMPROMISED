@@ -10,18 +10,18 @@ local SoundService = game:GetService("SoundService")
 -- SETTINGS
 local BLOCK_SIZE = 3
 local CHUNK_SIZE = 16
-local LOAD_RADIUS = 12
-local UNLOAD_RADIUS = 14
+local LOAD_RADIUS = 6
+local UNLOAD_RADIUS = 7
 local NOISE_SCALE = 0.02
-local HEIGHT_MULT = 10
+local HEIGHT_MULT = 8
 local LOADS_PER_STEP = 2
 local UNLOADS_PER_STEP = 1
 local BLOCKS_PER_STEP = 4
 
-local LOD_HIGH_RADIUS = 20
-local LOD_MEDIUM_RADIUS = 40
-local LOD_LOW_RADIUS = 60
-local WORLD_BOTTOM_Y = -60 -- Define the bottom of the world here
+local LOD_HIGH_RADIUS = 10
+local LOD_MEDIUM_RADIUS = 20
+local LOD_LOW_RADIUS = 30
+local WORLD_BOTTOM_Y = -10 -- Define the bottom of the world here
 
 -- STATE
 local playerChunks = {}
